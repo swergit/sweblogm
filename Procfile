@@ -1,0 +1,1 @@
+web: gunicorn swergit.wsgi --log-file -
