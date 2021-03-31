@@ -1,1 +1,1 @@
-web: gunicorn swergit.wsgi --log-file -
+web: gunicorn devl.wsgi --log-file -

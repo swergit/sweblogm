@@ -11,5 +11,4 @@ urlpatterns = [
 	path('blog/', views.post_list, name="blog"),
 	path('blogpost/<int:pk>', views.actual_post, name="actual_post"),
 
-
 ]
