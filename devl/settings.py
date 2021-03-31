@@ -10,7 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-import django_heroku
 from pathlib import Path
 import os
 
@@ -27,7 +26,7 @@ SECRET_KEY = 'yr1m))ivgq+fty^k@)bkf$&ic9+14g#4uvgwxe_8&ap0vwmjw*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", ""]
+ALLOWED_HOSTS = [ 'swergit.herokuapp.com/']
 
 
 # Application definition
@@ -131,4 +130,4 @@ MEDIA_URL = '/images/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
