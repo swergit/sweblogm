@@ -26,7 +26,7 @@ SECRET_KEY = 'yr1m))ivgq+fty^k@)bkf$&ic9+14g#4uvgwxe_8&ap0vwmjw*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ 'swergit.herokuapp.com/']
+ALLOWED_HOSTS = [ 'swergit.herokuapp.com']
 
 
 # Application definition
